@@ -1,4 +1,4 @@
 # lxqt-kwin
 
-My lxqt-kwin setup
+My Arch lxqt-kwin setup
 
