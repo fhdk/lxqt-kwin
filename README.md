@@ -2,6 +2,8 @@
 
 Arch lxqt-kwin setup
 
+![lxqt-kwin.png](lxqt-kwin.png)
+
 root checklist
 
 - [ ] `pacman -Syu --needed - < $srcdir/Packages-Desktop`
