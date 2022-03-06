@@ -13,5 +13,5 @@ root checklist
 - [ ] `cp -r $srcdir/etc/. /etc/`
 - [ ] `cp -r $srcdir/usr/. /usr/`
 - [ ] `cp -r $srcdir/root/. /root/`
-- [ ] `useradd -mUG lp,wheel,network USERNAME`
+- [ ] `useradd -mUG lp,wheel,network,video USERNAME`
 - [ ] `passwd USERNAME`
