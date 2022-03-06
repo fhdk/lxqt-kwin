@@ -10,7 +10,6 @@ konsole
 bash-completion
 dmidecode
 htop
-inxi
 mc
 micro
 numlockx
@@ -31,7 +30,6 @@ kvantum
 breeze
 breeze-gtk
 breeze-icons
-xcursor-breeze
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
