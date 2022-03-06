@@ -72,11 +72,11 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 zlib
+acpilight
 xorg-server
 xorg-server-common
 xorg-server-xephyr
 xorg-twm
-xorg-xbacklight
 xorg-xinit
 xorg-xinput
 xorg-xkill
