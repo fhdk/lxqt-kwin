@@ -12,7 +12,7 @@ VERSION="0.1"
 
 if [[ -z "$1" ]]; then
     echo "Required username is mussing."
-    echo "Add a lowercase username using ascii alpha digits only (no number digits) as first argument."
+    echo "Add a lowercase username using ascii only (no number digits) as first argument."
     echo "   e.g. ${SCRIPTNAME} fido"
     exit 1
 fi
