@@ -3,13 +3,16 @@
 Arch lxqt-kwin setup
 
 ![lxqt-kwin.png](lxqt-kwin.png)
+![lxqt-kwin-alarm.png](lxqt-kwin-alarm.png)
 
 ## setup
 
-install git and clone this repo
-cd into the folder
-follow the checklist
+* install git
+* clone this repo
+* cd into the folder
+* follow the checklist
 
+### checklist
 - [ ] `pacman -Syu --needed - < $PWD/Packages-Desktop`
 - [ ] `systemctl enable NetworkManager`
 - [ ] `systemctl enable sddm`
@@ -20,6 +23,9 @@ follow the checklist
 - [ ] `useradd -mUG lp,wheel,network,video USERNAME`
 - [ ] `passwd USERNAME`
 
-an alternative is to run the `setup.sh`
+### slightly automated
 
-    bash setup.sh username
+* an alternative is to run the `setup.sh`
+   ```
+   bash setup.sh username
+   ```
