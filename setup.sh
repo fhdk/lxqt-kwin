@@ -17,7 +17,7 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 
-if isValidUsername "$1"; then
+#if isValidUsername "$1"; then
   pacman -Syu --needed - < $PWD/Packages-Desktop
   systemctl enable NetworkManager
   systemctl enable sddm
@@ -27,8 +27,8 @@ if isValidUsername "$1"; then
   cp -r $PWD/root/. /root/
   useradd -mUG lp,wheel,network,video $1
   passwd $1
-  exit 0
-else
-  echo "$1 is not a valid username"
-  exit 1
-fi
+#  exit 0
+#else
+#  echo "$1 is not a valid username"
+#  exit 1
+#fi
