@@ -30,6 +30,8 @@ breeze
 breeze-gtk
 breeze-icons
 adwaita-icon-theme
+gnome-icon-theme-extra
+gnome-themes-extra
 hicolor-icon-theme
 sddm
 kwin
