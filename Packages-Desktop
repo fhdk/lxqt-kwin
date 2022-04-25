@@ -33,6 +33,9 @@ adwaita-icon-theme
 gnome-icon-theme-extras
 gnome-themes-extra
 hicolor-icon-theme
+oxygen-icons
+oxygen-icons-svg
+xdg-desktop-portal-lxqt
 sddm
 kwin
 systemsettings
