@@ -1,5 +1,6 @@
 # maintainer fhdk - https://github.com/fhsk/lxqt-kwin
 pkgname="lxqt-kwin-settings"
+pkgdesc="lxqt kwin theme"
 pkgver=0.2
 pkgrel=1
 arch=('any')
