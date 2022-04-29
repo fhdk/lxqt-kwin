@@ -1,8 +1,10 @@
-pkgname="lxqt-theme"
+# maintainer fhdk - https://github.com/fhsk/lxqt-kwin
+pkgname="lxqt-kwin-settings"
 pkgver=0.2
 pkgrel=1
 arch=('any')
-licens=('MIT')
+license=('MIT')
+url='https://github.com/fhdk/lxqt-kwin'
 
 package(){
     install -d -m755 $pkgdir/etc
