@@ -1,0 +1,12 @@
+aspnet-runtime-bin
+aspnet-targeting-pack-bin
+dotnet-host-bin
+dotnet-runtime-bin
+dotnet-sdk-bin
+dotnet-targeting-pack-bin
+hw-probe
+microsoft-edge-dev-bin
+netstandard-targeting-pack-bin
+postman-bin
+sddm-conf-git
+teamviewer
