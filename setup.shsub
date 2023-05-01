@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# https://stackoverflow.com/questions/38427000/bash-validating-user-name-with-regex
 isValidUsername() {
-  local re='^[[:lower:]_][[:lower:][:digit:]_-]{2,15}$'
+  local re='^[a-z_]([a-z0-9_-]{0,31}|[a-z0-9_-]{0,30}\$)$'
   (( ${#1} > 16 )) && return 1
   [[ $1 =~ $re ]] # return value of this comparison is used for the function
 }
@@ -17,7 +16,7 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 
-#if isValidUsername "$1"; then
+if (( isValidUsername "$1" )); then
   pacman -Syu --needed - < $PWD/Packages-Desktop
   systemctl enable NetworkManager
   systemctl enable sddm
@@ -27,8 +26,8 @@ fi
   cp -r $PWD/root/. /root/
   useradd -mUG lp,wheel,network,video $1
   passwd $1
-#  exit 0
-#else
-#  echo "$1 is not a valid username"
-#  exit 1
-#fi
+  exit 0
+else
+  echo "$1 is not a valid username"
+  exit 1
+fi
