@@ -7,6 +7,7 @@ Arch lxqt-kwin setup
 
 ## setup
 
+* install a barebone system
 * install git
 * clone this repo
 * cd into the folder
