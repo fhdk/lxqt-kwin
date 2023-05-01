@@ -2,7 +2,7 @@
 
 isValidUsername() {
   local re='^[a-z_]([a-z0-9_-]{0,31}|[a-z0-9_-]{0,30}\$)$'
-  (( ${#1} > 16 )) && return 1
+  (( ${#1} > 32 )) && return 1
   [[ $1 =~ $re ]] # return value of this comparison is used for the function
 }
 
