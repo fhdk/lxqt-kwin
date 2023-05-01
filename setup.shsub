@@ -11,7 +11,7 @@ VERSION="0.1"
 
 if [[ -z "$1" ]]; then
     echo "=> Required username is missing."
-    echo "  -> Add a valid unix username"
+    echo "  -> Add a valid unix username (see: man useradd CAVEATS)"
     echo "  -> e.g. ${SCRIPTNAME} fido"
     exit 1
 fi
