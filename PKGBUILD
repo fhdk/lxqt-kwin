@@ -1,4 +1,4 @@
-# maintainer fhdk - https://github.com/fhsk/lxqt-kwin
+# maintainer fhdk - https://github.com/fhdk/lxqt-kwin
 pkgname="lxqt-kwin-settings"
 pkgdesc="lxqt kwin theme"
 pkgver=0.2
