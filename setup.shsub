@@ -10,9 +10,9 @@ SCRIPTNAME=$(basename "$0")
 VERSION="0.1"
 
 if [[ -z "$1" ]]; then
-    echo "Required username is mussing."
-    echo "Add a lowercase username using ascii only (no number digits) as first argument."
-    echo "   e.g. ${SCRIPTNAME} fido"
+    echo "=> Required username is mussing."
+    echo "  -> Add a valid unix username"
+    echo "  -> e.g. ${SCRIPTNAME} fido"
     exit 1
 fi
 
