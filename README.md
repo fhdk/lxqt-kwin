@@ -25,7 +25,7 @@ Arch lxqt-kwin setup
 
 ### slightly automated
 
-* an alternative is to run the `setup.sh`
+* an alternative is to run the `setup.sh` - simply provide your desired username as argument for setup.sh
    ```
-   bash setup.sh username
+   bash setup.sh <username>
    ```
