@@ -16,7 +16,7 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 
-if (( isValidUsername "$1" )); then
+if isValidUsername "$1"; then
   pacman -Syu --needed - < $PWD/Packages-Desktop
   systemctl enable NetworkManager
   systemctl enable sddm
