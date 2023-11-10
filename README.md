@@ -24,6 +24,11 @@ Arch lxqt-kwin setup
 - [ ] `useradd -mUG lp,wheel,network,video USERNAME`
 - [ ] `passwd USERNAME`
 
+### slightly automated
+Run the setup.sh script and supply a valid username
+
+    bash setup.sh USERNAME
+
 ## Raspberry Pi 5 video config
 Add a configuration to `/etc/X11/xorg.conf.d/99-v3d.conf` with content
 
