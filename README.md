@@ -24,9 +24,14 @@ Arch lxqt-kwin setup
 - [ ] `useradd -mUG lp,wheel,network,video USERNAME`
 - [ ] `passwd USERNAME`
 
-### slightly automated
+## Raspberry Pi 5 video config
+Add a configuration to `/etc/X11/xorg.conf.d/99-v3d.conf` with content
 
-* an alternative is to run the `setup.sh` - simply provide your desired username as argument for setup.sh
-   ```
-   bash setup.sh <username>
-   ```
+```
+Section "OutputClass"
+  Identifier "vc4"
+  MatchDriver "vc4"
+  Driver "modesetting"
+  Option "PrimaryGPU" "true"
+EndSection
+```
